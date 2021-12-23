@@ -44,6 +44,7 @@ public class Shaker : MonoBehaviour
         if (m_CurrentTime >= 1.0f)
         {
             Enabled = false;
+            m_Transform.position = m_TargetPos;
         }
     }
 
